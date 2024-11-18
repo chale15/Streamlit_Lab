@@ -49,7 +49,7 @@ with st.sidebar:
     if st.button("Random Name"):
         random_name = get_random_name(data)
         st.session_state.input_name = random_name
-        st.experimental_rerun()
+        st.rerun()
 
 
 
